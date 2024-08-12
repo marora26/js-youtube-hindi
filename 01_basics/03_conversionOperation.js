@@ -107,3 +107,37 @@ let someNumber = 33
 let stringNumber = String(someNumber);
 
 console.log(typeof stringNumber);
+
+// ******** Operations **********
+
+let value = 3;
+let negValue = -value;
+
+// console.log(negValue);
+
+// let str1 = "hello";
+// let str2 = " hitesh";
+// let str3 = str1 + str2
+
+// // this is how we can add the strings
+
+// console.log(str3);
+
+// console.log("1" + 2); // Output - 12
+// console.log(1 + "2"); // Output - 12
+// console.log("1" + 2 + 2); // Output - 122
+// console.log(1 + 2 + "2"); // Output - 32
+
+// prefferd type as which value comes first
+
+
+// console.log(+true); // increment with conversion 1 is the output
+// console.log();
+
+// let num1, num2, num3 
+
+let gameCounter = 100;
+++gameCounter;
+console.log(gameCounter);
+
+// prefis and postfix operator => precedence operator
