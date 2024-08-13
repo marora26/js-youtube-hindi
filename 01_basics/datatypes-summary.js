@@ -91,12 +91,36 @@ const bigNumber = 231341n;
 // Non-primitive or call by the reference
 // Objects, Array, Functions typeof function
 
-const heros = ["Shaktiman", "nagraj", "doga"];
-let myObj = {
-    name: "mayank",
-    age: 22
+// const heros = ["Shaktiman", "nagraj", "doga"];
+// let myObj = {
+//     name: "mayank",
+//     age: 22
+// }
+// const myfunction = function(){
+//     console.log("Hello World");   
+// } // typeof object function
+// console.log(typeof myfunction);
+
+// Stack(Primitive) and Heap(Non-Primitive) Memory
+
+let myYoutubeName = "mayank@youtube.com";
+
+let anothername = myYoutubeName;
+
+anothername = "chaiaurcode";
+
+console.log(myYoutubeName);
+console.log(anothername);
+
+let userOne = {
+    email: "mayankaroroora2698@gmail.com",
+    upi: "user@ybl"
 }
-const myfunction = function(){
-    console.log("Hello World");   
-} // typeof object function
-console.log(typeof myfunction);
+// console.log(typeof user);
+
+let userTwo = userOne
+
+userTwo.email = "mayank@google.com";
+
+console.log(userOne.email);
+console.log(userTwo.email);
