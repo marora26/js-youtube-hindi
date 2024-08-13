@@ -12,3 +12,6 @@ console.log(typeof all_new_heros);
 
 
 // .flat method to join the array
+
+// Revision =>
+
