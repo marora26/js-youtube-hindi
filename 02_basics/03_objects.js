@@ -72,12 +72,16 @@ const jsUser = {
 // console.log(jsUser);
 
 
-// jsUser.greetings = function(){
-//     console.log("greeting");   
-// }
+jsUser.greetings = function(){
+    console.log("greeting");   
+}
 
 jsUser.greetings2 = function(){
     console.log(`Hello js user ${this.email}`);   
 }
-// this  we used to take the same key value
-console.log(jsUser.greetings2());
+// // this  we used to take the same key value
+// console.log(jsUser.greetings2());
+
+
+jsUser.city = "Jaipur";
+console.log(jsUser);
